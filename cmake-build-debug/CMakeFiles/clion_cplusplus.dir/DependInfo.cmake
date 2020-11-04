@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/main.cpp.o"
+  "/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp
+iostream
+-
+stonewt.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
+
+/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.cpp
+iostream
+-
+stonewt.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
+
+/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
+

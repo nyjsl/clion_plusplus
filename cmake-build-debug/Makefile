@@ -170,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stonewt.o: stonewt.cpp.o
+
+.PHONY : stonewt.o
+
+# target to build an object file
+stonewt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o
+.PHONY : stonewt.cpp.o
+
+stonewt.i: stonewt.cpp.i
+
+.PHONY : stonewt.i
+
+# target to preprocess a source file
+stonewt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/stonewt.cpp.i
+.PHONY : stonewt.cpp.i
+
+stonewt.s: stonewt.cpp.s
+
+.PHONY : stonewt.s
+
+# target to generate assembly for a file
+stonewt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/stonewt.cpp.s
+.PHONY : stonewt.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stonewt.o"
+	@echo "... stonewt.i"
+	@echo "... stonewt.s"
 .PHONY : help
 
 

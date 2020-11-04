@@ -83,6 +83,9 @@
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp">
 			<Option target="clion_cplusplus"/>
 		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.cpp">
+			<Option target="clion_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>

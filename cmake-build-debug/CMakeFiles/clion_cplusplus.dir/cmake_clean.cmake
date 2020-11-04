@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/clion_cplusplus.dir/main.cpp.o"
+  "CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o"
   "clion_cplusplus"
   "clion_cplusplus.pdb"
 )
