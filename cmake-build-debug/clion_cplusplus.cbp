@@ -89,6 +89,12 @@
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.cpp">
+			<Option target="clion_cplusplus"/>
+		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.h">
+			<Option target="clion_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

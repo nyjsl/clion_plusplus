@@ -197,6 +197,33 @@ stonewt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/stonewt.cpp.s
 .PHONY : stonewt.cpp.s
 
+stringbad.o: stringbad.cpp.o
+
+.PHONY : stringbad.o
+
+# target to build an object file
+stringbad.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o
+.PHONY : stringbad.cpp.o
+
+stringbad.i: stringbad.cpp.i
+
+.PHONY : stringbad.i
+
+# target to preprocess a source file
+stringbad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/stringbad.cpp.i
+.PHONY : stringbad.cpp.i
+
+stringbad.s: stringbad.cpp.s
+
+.PHONY : stringbad.s
+
+# target to generate assembly for a file
+stringbad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/stringbad.cpp.s
+.PHONY : stringbad.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +239,9 @@ help:
 	@echo "... stonewt.o"
 	@echo "... stonewt.i"
 	@echo "... stonewt.s"
+	@echo "... stringbad.o"
+	@echo "... stringbad.i"
+	@echo "... stringbad.s"
 .PHONY : help
 
 
