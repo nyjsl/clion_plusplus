@@ -35,6 +35,8 @@ public:
 
     // friend function
     friend std::ostream & operator<<(std::ostream & os,const StringBad & st);
+    // 赋值云素服
+    StringBad & operator=(const StringBad & st);
 };
 
 #endif //CLION_CPLUSPLUS_STRINGBAD_H

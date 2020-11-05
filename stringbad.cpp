@@ -40,6 +40,17 @@ StringBad::~StringBad() {
     delete[] str;
 }
 
+StringBad & StringBad::operator=(const StringBad &st) {
+    if(this == &st){
+        return * this;
+    }
+    delete[] str; // free old string
+    len = st.len;
+    str = new char[len+1];
+    std::strcpy(str,st.str);
+    return * this;
+}
+
 
 std::ostream & operator<<(std::ostream & os,const StringBad & st){
     os << st.str;
