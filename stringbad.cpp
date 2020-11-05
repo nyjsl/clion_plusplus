@@ -34,7 +34,7 @@ StringBad::StringBad(const StringBad &st) {
 }
 
 StringBad::~StringBad() {
-    cout << "\"" << str << "\" object deletd,";
+    cout << "\"" << str << "\" object deleted,";
     --num_strings;
     cout << num_strings << " left\n";
     delete[] str;

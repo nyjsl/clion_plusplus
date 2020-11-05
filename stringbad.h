@@ -35,7 +35,7 @@ public:
 
     // friend function
     friend std::ostream & operator<<(std::ostream & os,const StringBad & st);
-    // 赋值云素服
+    // 赋值运算符
     StringBad & operator=(const StringBad & st);
 };
 
