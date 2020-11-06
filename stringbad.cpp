@@ -5,6 +5,7 @@
 #include "stringbad.h"
 #include <cstring>
 using std::cout;
+using std::cin;
 // initizlizing static class member
 int StringBad::num_strings = 0;
 
@@ -50,9 +51,27 @@ StringBad & StringBad::operator=(const StringBad &st) {
     std::strcpy(str,st.str);
     return * this;
 }
+StringBad & StringBad::operator=(const char * s) {
+    delete[] str; // free old string
+    len = std::strlen(s);
+    str = new char[len+1];
+    std::strcpy(str,s);
+    return * this;
+}
 
 
 std::ostream & operator<<(std::ostream & os,const StringBad & st){
     os << st.str;
     return os;
+}
+std::istream & operator>>(std::istream & is,StringBad & st){
+    char temp[StringBad::CINLIM];
+    is.get(temp, StringBad::CINLIM);
+    if (is) {
+        st = temp;
+    }
+    while (is && is.get() != '\n') {
+        continue;
+    }
+    return is;
 }

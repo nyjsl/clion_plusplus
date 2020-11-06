@@ -25,6 +25,7 @@ private:
     char * str; // pointer to string
     int len;
     static int num_strings; //number of objects
+    static const int CINLIM = 80; // cin input limit
 public:
     StringBad(const char* s); //constructor
     StringBad(); // default constructor
@@ -35,8 +36,10 @@ public:
 
     // friend function
     friend std::ostream & operator<<(std::ostream & os,const StringBad & st);
+    friend std::istream & operator>>(std::istream & os,StringBad & st);
     // 赋值运算符
     StringBad & operator=(const StringBad & st);
+    StringBad & operator=(const char * s);
 };
 
 #endif //CLION_CPLUSPLUS_STRINGBAD_H

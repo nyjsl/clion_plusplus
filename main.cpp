@@ -7,6 +7,7 @@
 void cellme1(StringBad &rsb); //pass by refreence
 void cellme2(StringBad sb);   //pass by value
 using std::cout;
+using std::cin;
 int main() {
     cout << "Hello, World!" << std::endl;
 
@@ -24,33 +25,29 @@ int main() {
 //
 //    std::cout << "Convert to int => ";
 //    std::cout << "Poppings: " << int(poppings) << ". pounds.\n";
-    using std::endl;{
-        cout <<"Starting an inner block\n";
-        StringBad headline1("Celery Stalks at Midnight");
-        StringBad headlien2("Lettuce Prey");
-        StringBad sports("Spinach Levaves bow1 for Dollars");
-        cout << "headline1: "<<headline1<<endl;
-        cout << "headlien2: "<<headlien2<<endl;
-        cout << "sports: "<<sports<<endl;
-        cellme1(headline1);
-        cout << "headline1: "<<headline1<<endl;
-        cellme2(headlien2);
-        cout << "headlien2: "<<headlien2<<endl;
-        cout << "Initialize one object to another:\n";
-        //调用复制构造函数
-        StringBad sailor = sports; //call StringBad(const StringBad &)
-        cout << "sailor: "<<sailor<<endl;
-        cout << "Assigin one object to another:\n";
-        StringBad knot;
-        knot = headline1;
-        cout << "knot: "<<knot<<endl;
-        cout << "Exiting the block.\n";
-
-
-
-    }
-
-
+//    using std::endl;
+//    {
+//        cout <<"Starting an inner block\n";
+//        StringBad headline1("Celery Stalks at Midnight");
+//        StringBad headlien2("Lettuce Prey");
+//        StringBad sports("Spinach Levaves bow1 for Dollars");
+//        cout << "headline1: "<<headline1<<endl;
+//        cout << "headlien2: "<<headlien2<<endl;
+//        cout << "sports: "<<sports<<endl;
+//        cellme1(headline1);
+//        cout << "headline1: "<<headline1<<endl;
+//        cellme2(headlien2);
+//        cout << "headlien2: "<<headlien2<<endl;
+//        cout << "Initialize one object to another:\n";
+//        //调用复制构造函数
+//        StringBad sailor = sports; //call StringBad(const StringBad &)
+//        cout << "sailor: "<<sailor<<endl;
+//        cout << "Assigin one object to another:\n";
+//        StringBad knot;
+//        knot = headline1;
+//        cout << "knot: "<<knot<<endl;
+//        cout << "Exiting the block.\n";
+//    }
 
     return 0;
 }
