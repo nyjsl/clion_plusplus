@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/Users/xiaolian/CLionProjects/clion_cplusplus/Queue.h
+
 /Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp
 iostream
 -
@@ -13,14 +15,14 @@ stonewt.h
 /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
 stringbad.h
 /Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.h
+Queue.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/Queue.h
+cstdlib
+-
+ctime
+-
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.cpp
-stringbad.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.h
-cstring
--
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.h
 iostream

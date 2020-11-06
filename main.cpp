@@ -2,12 +2,17 @@
 #include "stonewt.h"
 
 #include "stringbad.h"
-
-
+#include "Queue.h"
+#include <cstdlib>
+#include <ctime>
 void cellme1(StringBad &rsb); //pass by refreence
 void cellme2(StringBad sb);   //pass by value
+bool newcustomer(double x);
+void bank();
 using std::cout;
 using std::cin;
+using std::ios_base;
+using std::endl;
 int main() {
     cout << "Hello, World!" << std::endl;
 
@@ -49,6 +54,8 @@ int main() {
 //        cout << "Exiting the block.\n";
 //    }
 
+    bank();
+
     return 0;
 }
 
@@ -60,5 +67,72 @@ void cellme1(StringBad &rsb){
 void cellme2(StringBad sb){
     cout << "String passed by val:\n";
     cout << "   \"" << sb << "\"\n";
+}
+
+bool newcustomer(double x) {
+    return (std::rand()*x/RAND_MAX <1);
+}
+
+const int MIN_PER_HR = 60;
+void bank() {
+    std::srand(std::time(0));
+    cout << "Case Study: Bank of Heather Automatic Teller\n";
+    cout << "Enter maximum size of queue: ";
+    int qs;
+    cin >> qs;
+    Queue line(qs);
+    cout << "Enter the number of simulation hours:";
+    int hours ;
+    cin >> hours;
+    long cyclelimit = MIN_PER_HR * hours;
+    cout << "Enter the average number of customers per hour: ";
+    double perhour;
+    cin>>perhour;
+    double min_per_cust;
+    min_per_cust = MIN_PER_HR;
+    Item temp;
+    long turnaways = 0;
+    long customers = 0;
+    long servd = 0;
+    long sum_Lin = 0;
+    long wait_time = 0;
+    long line_wait = 0;
+    for (int cycle = 0; cycle < cyclelimit; cycle++) {
+        if (newcustomer(min_per_cust)) {
+            if (line.isFull()) {
+                turnaways++;
+            }else{
+                customers++;
+                temp.set(cycle);
+                line.enqueue(temp);
+            }
+        }
+        if (wait_time <= 0 && !line.isEmpyt()) {
+            line.dequeue(temp);
+            wait_time = temp.ptime();
+            line_wait += cycle - temp.when();
+            servd++;
+        }
+        if (wait_time > 0) {
+            wait_time--;
+        }
+        sum_Lin+=line.queuecount();
+    }
+
+    if(customers>0) {
+        cout << "customers accepted " <<customers << std::endl;
+        cout << "customers served " <<servd << std::endl;
+        cout << "turnaways " <<turnaways << std::endl;
+        cout << "average queue size: ";
+        cout.precision(2);
+        cout.setf(ios_base::fixed, ios_base::floatfield);
+        cout << (double) sum_Lin/cyclelimit << endl;
+        cout << "average wait time: "
+             << (double) line_wait / servd << " minutes \n";
+
+    }else{
+        cout << "No customers! \n";
+    }
+    cout << "Done!\n";
 }
 

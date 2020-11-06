@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/Queue.cpp">
+			<Option target="clion_cplusplus"/>
+		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/Queue.h">
+			<Option target="clion_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp">
 			<Option target="clion_cplusplus"/>
 		</Unit>
