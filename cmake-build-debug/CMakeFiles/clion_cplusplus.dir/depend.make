@@ -8,10 +8,14 @@ CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../Queue.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../main.cpp
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stonewt.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stringbad.h
+CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../table_tennis.h
 
 CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o: ../stonewt.cpp
 CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o: ../stonewt.h
 
 CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o: ../stringbad.cpp
 CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o: ../stringbad.h
+
+CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o: ../table_tennis.cpp
+CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o: ../table_tennis.h
 

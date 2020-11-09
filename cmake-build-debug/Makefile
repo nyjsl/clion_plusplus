@@ -251,6 +251,33 @@ stringbad.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/stringbad.cpp.s
 .PHONY : stringbad.cpp.s
 
+table_tennis.o: table_tennis.cpp.o
+
+.PHONY : table_tennis.o
+
+# target to build an object file
+table_tennis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o
+.PHONY : table_tennis.cpp.o
+
+table_tennis.i: table_tennis.cpp.i
+
+.PHONY : table_tennis.i
+
+# target to preprocess a source file
+table_tennis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.i
+.PHONY : table_tennis.cpp.i
+
+table_tennis.s: table_tennis.cpp.s
+
+.PHONY : table_tennis.s
+
+# target to generate assembly for a file
+table_tennis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.s
+.PHONY : table_tennis.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -272,6 +299,9 @@ help:
 	@echo "... stringbad.o"
 	@echo "... stringbad.i"
 	@echo "... stringbad.s"
+	@echo "... table_tennis.o"
+	@echo "... table_tennis.i"
+	@echo "... table_tennis.s"
 .PHONY : help
 
 

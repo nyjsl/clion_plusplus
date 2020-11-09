@@ -5,14 +5,21 @@
 #include "Queue.h"
 #include <cstdlib>
 #include <ctime>
+#include "table_tennis.h"
 void cellme1(StringBad &rsb); //pass by refreence
 void cellme2(StringBad sb);   //pass by value
 bool newcustomer(double x);
 void bank();
+
+
+
 using std::cout;
 using std::cin;
 using std::ios_base;
 using std::endl;
+
+void showPlayer(const TableTannisPlayer & tp);
+
 int main() {
     cout << "Hello, World!" << std::endl;
 
@@ -54,7 +61,19 @@ int main() {
 //        cout << "Exiting the block.\n";
 //    }
 
-    bank();
+//    bank();
+
+    TableTannisPlayer player1("Chunk", "Blizzard", true);
+    TableTannisPlayer player2("Tara","Boomdea",false);
+    showPlayer(player1);
+    showPlayer(player2);
+
+    ReatedPalyer rplayer1(1140, "Mallory", "Duck", true);
+    showPlayer(rplayer1);
+    cout << ";rating: "<<rplayer1.Rating() << endl;
+    ReatedPalyer rplayer2(1212,player1);
+    showPlayer(rplayer2);
+    cout << ";rating: "<<rplayer2.Rating() << endl;
 
     return 0;
 }
@@ -135,4 +154,19 @@ void bank() {
     }
     cout << "Done!\n";
 }
+/**
+ * 基类引用和指针可以指向派生类
+ * @param tp
+ */
+void showPlayer(const TableTannisPlayer & tp){
+    cout << "Name: ";
+    tp.Name();
+    if (tp.Hastable()) {
+        cout << " : has a table.\n";
+    }else{
+        cout << " : hasn't a table.\n";
+    }
+
+}
+
 

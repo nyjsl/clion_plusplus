@@ -21,10 +21,16 @@ cstdlib
 -
 ctime
 -
+table_tennis.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.h
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.h
 iostream
+-
+
+/Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.h
+string
 -
 

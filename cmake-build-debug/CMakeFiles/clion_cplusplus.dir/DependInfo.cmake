@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/main.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o"
+  "/Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
