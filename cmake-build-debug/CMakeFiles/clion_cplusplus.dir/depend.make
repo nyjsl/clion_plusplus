@@ -4,7 +4,11 @@
 CMakeFiles/clion_cplusplus.dir/Queue.cpp.o: ../Queue.cpp
 CMakeFiles/clion_cplusplus.dir/Queue.cpp.o: ../Queue.h
 
+CMakeFiles/clion_cplusplus.dir/brass.cpp.o: ../brass.cpp
+CMakeFiles/clion_cplusplus.dir/brass.cpp.o: ../brass.h
+
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../Queue.h
+CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../brass.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../main.cpp
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stonewt.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stringbad.h

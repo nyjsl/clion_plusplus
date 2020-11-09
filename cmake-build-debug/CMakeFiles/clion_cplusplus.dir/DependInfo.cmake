@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xiaolian/CLionProjects/clion_cplusplus/Queue.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/Queue.cpp.o"
+  "/Users/xiaolian/CLionProjects/clion_cplusplus/brass.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/brass.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/main.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o"

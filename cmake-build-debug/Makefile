@@ -170,6 +170,33 @@ Queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Queue.cpp.s
 .PHONY : Queue.cpp.s
 
+brass.o: brass.cpp.o
+
+.PHONY : brass.o
+
+# target to build an object file
+brass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/brass.cpp.o
+.PHONY : brass.cpp.o
+
+brass.i: brass.cpp.i
+
+.PHONY : brass.i
+
+# target to preprocess a source file
+brass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/brass.cpp.i
+.PHONY : brass.cpp.i
+
+brass.s: brass.cpp.s
+
+.PHONY : brass.s
+
+# target to generate assembly for a file
+brass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/brass.cpp.s
+.PHONY : brass.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -290,6 +317,9 @@ help:
 	@echo "... Queue.o"
 	@echo "... Queue.i"
 	@echo "... Queue.s"
+	@echo "... brass.o"
+	@echo "... brass.i"
+	@echo "... brass.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
