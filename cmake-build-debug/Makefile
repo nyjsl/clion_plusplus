@@ -197,6 +197,33 @@ brass.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/brass.cpp.s
 .PHONY : brass.cpp.s
 
+dma.o: dma.cpp.o
+
+.PHONY : dma.o
+
+# target to build an object file
+dma.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/dma.cpp.o
+.PHONY : dma.cpp.o
+
+dma.i: dma.cpp.i
+
+.PHONY : dma.i
+
+# target to preprocess a source file
+dma.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/dma.cpp.i
+.PHONY : dma.cpp.i
+
+dma.s: dma.cpp.s
+
+.PHONY : dma.s
+
+# target to generate assembly for a file
+dma.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/dma.cpp.s
+.PHONY : dma.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -320,6 +347,9 @@ help:
 	@echo "... brass.o"
 	@echo "... brass.i"
 	@echo "... brass.s"
+	@echo "... dma.o"
+	@echo "... dma.i"
+	@echo "... dma.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

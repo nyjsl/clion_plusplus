@@ -95,6 +95,12 @@
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/brass.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/dma.cpp">
+			<Option target="clion_cplusplus"/>
+		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/dma.h">
+			<Option target="clion_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp">
 			<Option target="clion_cplusplus"/>
 		</Unit>

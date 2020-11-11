@@ -8,16 +8,20 @@
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/Queue.h
 
-/Users/xiaolian/CLionProjects/clion_cplusplus/brass.cpp
-iostream
--
-brass.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/brass.h
-
 /Users/xiaolian/CLionProjects/clion_cplusplus/brass.h
 iostream
 -
 string
+-
+
+/Users/xiaolian/CLionProjects/clion_cplusplus/dma.cpp
+dma.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/dma.h
+cstring
+-
+
+/Users/xiaolian/CLionProjects/clion_cplusplus/dma.h
+ostream
 -
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp
@@ -37,6 +41,8 @@ table_tennis.h
 /Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.h
 brass.h
 /Users/xiaolian/CLionProjects/clion_cplusplus/brass.h
+dma.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/dma.h
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
 

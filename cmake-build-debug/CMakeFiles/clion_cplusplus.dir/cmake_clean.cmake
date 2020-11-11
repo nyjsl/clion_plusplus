@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/clion_cplusplus.dir/Queue.cpp.o"
   "CMakeFiles/clion_cplusplus.dir/brass.cpp.o"
+  "CMakeFiles/clion_cplusplus.dir/dma.cpp.o"
   "CMakeFiles/clion_cplusplus.dir/main.cpp.o"
   "CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o"
   "CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o"

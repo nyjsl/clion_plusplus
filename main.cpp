@@ -7,6 +7,8 @@
 #include <ctime>
 #include "table_tennis.h"
 #include "brass.h"
+
+#include "dma.h"
 void cellme1(StringBad &rsb); //pass by refreence
 void cellme2(StringBad sb);   //pass by value
 bool newcustomer(double x);
@@ -76,21 +78,40 @@ int main() {
 //    showPlayer(rplayer2);
 //    cout << ";rating: "<<rplayer2.Rating() << endl;
 
-    Brass piggy("Porcetlog piggh", 381299, 4000.00);
-    BrassPlus hoggy("Horatio Hogg", 382288, 3000, 00);
-    piggy.ViewAcct();
-    cout << endl;
-    hoggy.ViewAcct();
-    cout << endl;
-    cout << "Depositing $1000 into the hoggy account \n";
-    hoggy.Deposit(1000);
-    cout << "New Balance : $ "<< hoggy.Balance() << endl;
-    cout << "WithDraw $4200 from th piggy account \n";
-    piggy.Withdraw(4200);
-    cout << "pigg account balance " << piggy.Balance() << endl;
-    cout << "WithDraw $ 4200 from the hoggy account \n";
-    hoggy.Withdraw(4200.00);
-    hoggy.ViewAcct();
+//    Brass piggy("Porcetlog piggh", 381299, 4000.00);
+//    BrassPlus hoggy("Horatio Hogg", 382288, 3000, 00);
+//    piggy.ViewAcct();
+//    cout << endl;
+//    hoggy.ViewAcct();
+//    cout << endl;
+//    cout << "Depositing $1000 into the hoggy account \n";
+//    hoggy.Deposit(1000);
+//    cout << "New Balance : $ "<< hoggy.Balance() << endl;
+//    cout << "WithDraw $4200 from th piggy account \n";
+//    piggy.Withdraw(4200);
+//    cout << "pigg account balance " << piggy.Balance() << endl;
+//    cout << "WithDraw $ 4200 from the hoggy account \n";
+//    hoggy.Withdraw(4200.00);
+//    hoggy.ViewAcct();
+
+    baseDMA shirt("Portabelly", 8);
+    lackDMA ballon("red",  4,"Blimpo");
+    hasDMA map("Mercator","Buffalo Keys",5);
+    cout << "Displaying baseDma object:\n";
+    cout << shirt<< endl;
+    cout << "Displaying lacksDma object:\n";
+    cout << ballon << endl;
+    cout << "Displayint hasDma object:\n";
+    cout << map <<endl;
+    lackDMA ballon2(ballon);
+    cout << "Result of lacksDma copy:\n";
+    cout << ballon2 << endl;
+    hasDMA map2;
+    map2 = map;
+
+    cout << "Result of hasDMA assignment:\n";
+    cout << map2 << endl;
+    return 0;
 
     return 0;
 }
