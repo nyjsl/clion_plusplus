@@ -10,6 +10,7 @@
 
 #include "dma.h"
 #include "Worker.h"
+#include "stacktp.h"
 
 void cellme1(StringBad &rsb); //pass by refreence
 void cellme2(StringBad sb);   //pass by value
@@ -130,49 +131,88 @@ int main() {
 //        std::cout << std::endl;
 //    }
 
-    const int SIZE = 5;
-    Worker * lolas[SIZE];
-    int ct;
-    for (ct = 0; ct < SIZE; ct++) {
-        char choice;
-        cout << "Enter the employee category:\n"
-             << "w: waiter s:singer "
-             << "t: singer waiter q:quit\n";
-        cin >> choice;
-        while (strchr("wstq",choice) == NULL){
-            cout << "Please enter aw,s,t,or q: ";
-            cin >> choice;
-        }
-        if (choice == 'q') {
-            break;
-        }
-        switch (choice) {
-            case 'w' : lolas[ct] = new Waiter;
-            break;
-            case 's' : lolas[ct] = new Singer;
-            break;
-            case 't' : lolas[ct] = new SingingWaiter;
-            break;
-        }
-        cin.get();
-        lolas[ct]->Set();
+//    const int SIZE = 5;
+//    Worker * lolas[SIZE];
+//    int ct;
+//    for (ct = 0; ct < SIZE; ct++) {
+//        char choice;
+//        cout << "Enter the employee category:\n"
+//             << "w: waiter s:singer "
+//             << "t: singer waiter q:quit\n";
+//        cin >> choice;
+//        while (strchr("wstq",choice) == NULL){
+//            cout << "Please enter aw,s,t,or q: ";
+//            cin >> choice;
+//        }
+//        if (choice == 'q') {
+//            break;
+//        }
+//        switch (choice) {
+//            case 'w' : lolas[ct] = new Waiter;
+//            break;
+//            case 's' : lolas[ct] = new Singer;
+//            break;
+//            case 't' : lolas[ct] = new SingingWaiter;
+//            break;
+//        }
+//        cin.get();
+//        lolas[ct]->Set();
+//
+//    }
+//
+//    cout << "\n Here is your staff:\n";
+//    int i;
+//    for (i = 0; i < ct; i++) {
+//        cout << endl;
+//        lolas[i]->Show();
+//    }
+//    for (i = 0; i < ct; i++) {
+//        delete lolas[i];
+//    }
+//    cout << "Bye.\n";
 
-    }
+    Stack<std::string> st; // create an empty stack
+    char ch;
+    std::string po;
+    cout << "Please enter A to add a purchase order \n"
+         << "p to process a PO ,or Q to quit .\n";
+    while (cin >> ch && std::toupper(ch) != 'Q') {
+        while (cin.get() != '\n') {
+            continue;
+        }
+        if (!std::isalpha(ch)) {
+            cout << '\a';
+            continue;
+        }
 
-    cout << "\n Here is your staff:\n";
-    int i;
-    for (i = 0; i < ct; i++) {
-        cout << endl;
-        lolas[i]->Show();
-    }
-    for (i = 0; i < ct; i++) {
-        delete lolas[i];
-    }
-    cout << "Bye.\n";
+        switch (ch) {
+            case 'A':
+            case 'a':
+               cout << "Enter a PO number to add:";
+               cin >> po;
+                if (st.isFull()) {
+                    cout << "stack already full\n";
+                }else{
+                    st.push(po);
+                }
+                break;
+            case 'p':
+            case 'P':
+                if (st.isEmpty()) {
+                    cout << "stack already empyt \n";
+                }else{
+                    st.pop(po);
+                    cout << "PO #" << po << " popped\n";
+                    break;
+                }
 
+        }
+        cout << "Please enter A to add a purchase orde ,\n"
+             << "P to process A PO or Q to quit.\n";
+    }
+    cout << " Bye\n";
     return 0;
 
-    return 0;
 }
 
 void cellme1(StringBad &rsb){

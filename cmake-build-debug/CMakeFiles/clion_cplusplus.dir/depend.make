@@ -21,6 +21,7 @@ CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../Worker.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../brass.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../dma.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../main.cpp
+CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stacktp.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stonewt.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stringbad.h
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../table_tennis.h
