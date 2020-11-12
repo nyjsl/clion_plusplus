@@ -9,6 +9,7 @@
 #include "brass.h"
 
 #include "dma.h"
+
 void cellme1(StringBad &rsb); //pass by refreence
 void cellme2(StringBad sb);   //pass by value
 bool newcustomer(double x);
@@ -94,23 +95,23 @@ int main() {
 //    hoggy.Withdraw(4200.00);
 //    hoggy.ViewAcct();
 
-    baseDMA shirt("Portabelly", 8);
-    lackDMA ballon("red",  4,"Blimpo");
-    hasDMA map("Mercator","Buffalo Keys",5);
-    cout << "Displaying baseDma object:\n";
-    cout << shirt<< endl;
-    cout << "Displaying lacksDma object:\n";
-    cout << ballon << endl;
-    cout << "Displayint hasDma object:\n";
-    cout << map <<endl;
-    lackDMA ballon2(ballon);
-    cout << "Result of lacksDma copy:\n";
-    cout << ballon2 << endl;
-    hasDMA map2;
-    map2 = map;
-
-    cout << "Result of hasDMA assignment:\n";
-    cout << map2 << endl;
+//    baseDMA shirt("Portabelly", 8);
+//    lackDMA ballon("red",  4,"Blimpo");
+//    hasDMA map("Mercator","Buffalo Keys",5);
+//    cout << "Displaying baseDma object:\n";
+//    cout << shirt<< endl;
+//    cout << "Displaying lacksDma object:\n";
+//    cout << ballon << endl;
+//    cout << "Displayint hasDma object:\n";
+//    cout << map <<endl;
+//    lackDMA ballon2(ballon);
+//    cout << "Result of lacksDma copy:\n";
+//    cout << ballon2 << endl;
+//    hasDMA map2;
+//    map2 = map;
+//
+//    cout << "Result of hasDMA assignment:\n";
+//    cout << map2 << endl;
     return 0;
 
     return 0;

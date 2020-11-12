@@ -170,6 +170,33 @@ Queue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Queue.cpp.s
 .PHONY : Queue.cpp.s
 
+Student.o: Student.cpp.o
+
+.PHONY : Student.o
+
+# target to build an object file
+Student.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 brass.o: brass.cpp.o
 
 .PHONY : brass.o
@@ -344,6 +371,9 @@ help:
 	@echo "... Queue.o"
 	@echo "... Queue.i"
 	@echo "... Queue.s"
+	@echo "... Student.o"
+	@echo "... Student.i"
+	@echo "... Student.s"
 	@echo "... brass.o"
 	@echo "... brass.i"
 	@echo "... brass.s"

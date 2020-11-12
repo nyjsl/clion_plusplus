@@ -4,6 +4,9 @@
 CMakeFiles/clion_cplusplus.dir/Queue.cpp.o: ../Queue.cpp
 CMakeFiles/clion_cplusplus.dir/Queue.cpp.o: ../Queue.h
 
+CMakeFiles/clion_cplusplus.dir/Student.cpp.o: ../Student.cpp
+CMakeFiles/clion_cplusplus.dir/Student.cpp.o: ../Student.h
+
 CMakeFiles/clion_cplusplus.dir/brass.cpp.o: ../brass.cpp
 CMakeFiles/clion_cplusplus.dir/brass.cpp.o: ../brass.h
 
