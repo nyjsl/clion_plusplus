@@ -8,15 +8,13 @@
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/Queue.h
 
-/Users/xiaolian/CLionProjects/clion_cplusplus/Student.cpp
-Student.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/Student.h
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/Student.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.cpp
+Worker.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.h
 iostream
 -
-valarray
--
+
+/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.h
 string
 -
 
@@ -49,6 +47,8 @@ brass.h
 /Users/xiaolian/CLionProjects/clion_cplusplus/brass.h
 dma.h
 /Users/xiaolian/CLionProjects/clion_cplusplus/dma.h
+Worker.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.h
 
 /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
 

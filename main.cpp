@@ -9,6 +9,7 @@
 #include "brass.h"
 
 #include "dma.h"
+#include "Worker.h"
 
 void cellme1(StringBad &rsb); //pass by refreence
 void cellme2(StringBad sb);   //pass by value
@@ -112,6 +113,23 @@ int main() {
 //
 //    cout << "Result of hasDMA assignment:\n";
 //    cout << map2 << endl;
+
+
+    const int LIM = 4;
+    Waiter bob("Bob Apple", 314L, 5);
+    Singer bev("Beverly Hills", 522L, 3);
+    Waiter w_temp;
+    Singer s_temp;
+    Worker *pw[LIM] = {&bob, &bev, &w_temp, &s_temp};
+    int i;
+    for (i = 2; i < LIM; i++) {
+        pw[i]->Set();
+    }
+    for(i=0;i<LIM;i++){
+        pw[i]->Show();
+        std::cout << std::endl;
+    }
+
     return 0;
 
     return 0;

@@ -197,6 +197,33 @@ Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Student.cpp.s
 .PHONY : Student.cpp.s
 
+Worker.o: Worker.cpp.o
+
+.PHONY : Worker.o
+
+# target to build an object file
+Worker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Worker.cpp.o
+.PHONY : Worker.cpp.o
+
+Worker.i: Worker.cpp.i
+
+.PHONY : Worker.i
+
+# target to preprocess a source file
+Worker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Worker.cpp.i
+.PHONY : Worker.cpp.i
+
+Worker.s: Worker.cpp.s
+
+.PHONY : Worker.s
+
+# target to generate assembly for a file
+Worker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/Worker.cpp.s
+.PHONY : Worker.cpp.s
+
 brass.o: brass.cpp.o
 
 .PHONY : brass.o
@@ -374,6 +401,9 @@ help:
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"
+	@echo "... Worker.o"
+	@echo "... Worker.i"
+	@echo "... Worker.s"
 	@echo "... brass.o"
 	@echo "... brass.i"
 	@echo "... brass.s"

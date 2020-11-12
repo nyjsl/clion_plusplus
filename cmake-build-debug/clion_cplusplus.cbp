@@ -92,6 +92,12 @@
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/Student.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.cpp">
+			<Option target="clion_cplusplus"/>
+		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.h">
+			<Option target="clion_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/acctabc.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>
