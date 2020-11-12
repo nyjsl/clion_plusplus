@@ -12,8 +12,12 @@ using std::endl;
 // must implement virtual destructor
 Worker::~Worker()  {}
 
-void Worker::Set() {
-    cout << "Enter worker's name:";
+void Worker::Data() const {
+    cout << "Name: "<< fullname << endl;
+    cout << "Employee ID: " << id << endl;
+}
+
+void Worker::Get() {
     getline(cin, fullname);
     cout << "Enter worker's ID: ";
     cin >> id;
@@ -22,17 +26,31 @@ void Worker::Set() {
     }
 }
 
+void Worker::Set() {
+    cout << "Enter worker's name:";
+    Worker::Get();
+}
+
 void Worker::Show() const {
-    cout << "Name: "<<fullname <<"\n";
-    cout << "Employee ID: " << endl;
+    cout << "Category:waiter\n";
+    Worker::Data();
 }
 
 void Waiter::Set() {
-    Worker::Set();
-    cout <<"Enter waiter's pannche rating: ";
-    cin>> panche;
+    cout <<"Enter waiter's name ";
+    Worker::Data();
+    Data();
+}
+
+void Waiter::Data() const {
+    cout << "Panache rating: "<< panche << endl;
+}
+
+void Waiter::Get() {
+    cout << "Enter waiter's panche rating:";
+    cin >> panche;
     while (cin.get() != '\n') {
-        continue;
+        continue;;
     }
 }
 
@@ -45,7 +63,22 @@ void Waiter::Show() const {
 char * Singer::pv[] = {"other","alto","contralto","soprano","bass","baritone","tenor"};
 
 void Singer::Set() {
-    Worker::Set();
+    cout << "Enter singer's name";
+    Worker::Get();
+    Get();
+}
+
+void Singer::Show() const {
+    cout << "Categor: singer \n";
+    Worker::Data();
+    Data();
+}
+
+void Singer::Data() const {
+    cout << "Vocal range: " << pv[voice] << endl;
+}
+
+void Singer::Get() {
     cout << "Enter number for singer's vocal range:\n";
     int i;
     for (i = 0; i < Vtypes; i++) {
@@ -66,8 +99,24 @@ void Singer::Set() {
     }
 }
 
-void Singer::Show() const {
-    cout << "Categor: singer \n";
-    Worker::Show();
-    cout << "Voice range:" << pv[voice] << endl;
+void SingingWaiter::Data() const {
+    Singer::Data();
+    Waiter::Data();
+}
+
+void SingingWaiter::Get() {
+    Singer::Get();
+    Waiter::Get();
+}
+
+void SingingWaiter::Set() {
+    cout << "Enter singing waiter's name: ";
+    Worker::Set();
+    Get();
+}
+
+void SingingWaiter::Show() const {
+    cout << "Category: singing waiter\n";
+    Worker::Data();
+    Data();
 }

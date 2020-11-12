@@ -115,20 +115,60 @@ int main() {
 //    cout << map2 << endl;
 
 
-    const int LIM = 4;
-    Waiter bob("Bob Apple", 314L, 5);
-    Singer bev("Beverly Hills", 522L, 3);
-    Waiter w_temp;
-    Singer s_temp;
-    Worker *pw[LIM] = {&bob, &bev, &w_temp, &s_temp};
+//    const int LIM = 4;
+//    Waiter bob("Bob Apple", 314L, 5);
+//    Singer bev("Beverly Hills", 522L, 3);
+//    Waiter w_temp;
+//    Singer s_temp;
+//    Worker *pw[LIM] = {&bob, &bev, &w_temp, &s_temp};
+//    int i;
+//    for (i = 2; i < LIM; i++) {
+//        pw[i]->Set();
+//    }
+//    for(i=0;i<LIM;i++){
+//        pw[i]->Show();
+//        std::cout << std::endl;
+//    }
+
+    const int SIZE = 5;
+    Worker * lolas[SIZE];
+    int ct;
+    for (ct = 0; ct < SIZE; ct++) {
+        char choice;
+        cout << "Enter the employee category:\n"
+             << "w: waiter s:singer "
+             << "t: singer waiter q:quit\n";
+        cin >> choice;
+        while (strchr("wstq",choice) == NULL){
+            cout << "Please enter aw,s,t,or q: ";
+            cin >> choice;
+        }
+        if (choice == 'q') {
+            break;
+        }
+        switch (choice) {
+            case 'w' : lolas[ct] = new Waiter;
+            break;
+            case 's' : lolas[ct] = new Singer;
+            break;
+            case 't' : lolas[ct] = new SingingWaiter;
+            break;
+        }
+        cin.get();
+        lolas[ct]->Set();
+
+    }
+
+    cout << "\n Here is your staff:\n";
     int i;
-    for (i = 2; i < LIM; i++) {
-        pw[i]->Set();
+    for (i = 0; i < ct; i++) {
+        cout << endl;
+        lolas[i]->Show();
     }
-    for(i=0;i<LIM;i++){
-        pw[i]->Show();
-        std::cout << std::endl;
+    for (i = 0; i < ct; i++) {
+        delete lolas[i];
     }
+    cout << "Bye.\n";
 
     return 0;
 
