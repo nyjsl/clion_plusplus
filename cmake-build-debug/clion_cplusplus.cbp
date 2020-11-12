@@ -101,6 +101,9 @@
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/acctabc.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/arraytp.h">
+			<Option target="clion_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/brass.cpp">
 			<Option target="clion_cplusplus"/>
 		</Unit>
