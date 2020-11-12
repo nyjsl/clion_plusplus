@@ -116,6 +116,9 @@
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp">
 			<Option target="clion_cplusplus"/>
 		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/stackp1.h">
+			<Option target="clion_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>
