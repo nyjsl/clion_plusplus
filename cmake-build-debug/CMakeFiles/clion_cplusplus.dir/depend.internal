@@ -20,6 +20,7 @@ CMakeFiles/clion_cplusplus.dir/frd2tmp.cpp.o
  /Users/xiaolian/CLionProjects/clion_cplusplus/frd2tmp.cpp
 CMakeFiles/clion_cplusplus.dir/main.cpp.o
  /Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp
+ /Users/xiaolian/CLionProjects/clion_cplusplus/tv.h
 CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o
  /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.cpp
  /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
@@ -32,3 +33,6 @@ CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o
 CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o
  /Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h
  /Users/xiaolian/CLionProjects/clion_cplusplus/tempparam.cpp
+CMakeFiles/clion_cplusplus.dir/tv.cpp.o
+ /Users/xiaolian/CLionProjects/clion_cplusplus/tv.cpp
+ /Users/xiaolian/CLionProjects/clion_cplusplus/tv.h

@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/tempparam.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o"
+  "/Users/xiaolian/CLionProjects/clion_cplusplus/tv.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/tv.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

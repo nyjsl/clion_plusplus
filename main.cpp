@@ -1,4 +1,4 @@
-//#include <iostream>
+#include <iostream>
 //#include "stonewt.h"
 //
 //#include "stringbad.h"
@@ -18,15 +18,17 @@
 //void bank();
 //
 //
-//
-//using std::cout;
-//using std::cin;
-//using std::ios_base;
-//using std::endl;
+
+#include "tv.h"
+
+using std::cout;
+using std::cin;
+using std::ios_base;
+using std::endl;
 //
 //void showPlayer(const TableTannisPlayer & tp);
 //
-//int main() {
+int main() {
 //    cout << "Hello, World!" << std::endl;
 
 //    Stonewt myCat;
@@ -211,9 +213,34 @@
 //             << "P to process A PO or Q to quit.\n";
 //    }
 //    cout << " Bye\n";
-//    return 0;
-//
-//}
+
+    Tv s42;
+    cout << "Initial settings for 42\" Tv: \n";
+
+    s42.settings();
+    s42.onOff();
+    s42.chanup();
+    cout << "\nAdujusted settigns for 42\" Tv:\n";
+    s42.chanup();
+    cout << "\nAdujusted settigns for 42\" Tv:\n";
+    s42.settings();
+
+    Remote grey;
+    grey.set_chan(s42, 10);
+    grey.volup(s42);
+    grey.volup(s42);
+    cout << " settigns after using remote\n";
+    s42.settings();
+
+
+    Tv s58(Tv::On);
+    s58.set_mode();
+    grey.set_chan(s58,29);
+    cout << "\n58\" Settings:\n";
+    s58.settings();
+    return 0;
+
+}
 //
 //void cellme1(StringBad &rsb){
 //    cout << "String passed by refreence:\n";

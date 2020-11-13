@@ -19,6 +19,7 @@ CMakeFiles/clion_cplusplus.dir/dma.cpp.o: ../dma.h
 CMakeFiles/clion_cplusplus.dir/frd2tmp.cpp.o: ../frd2tmp.cpp
 
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../main.cpp
+CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../tv.h
 
 CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o: ../stonewt.cpp
 CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o: ../stonewt.h
@@ -31,4 +32,7 @@ CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o: ../table_tennis.h
 
 CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o: ../stacktp.h
 CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o: ../tempparam.cpp
+
+CMakeFiles/clion_cplusplus.dir/tv.cpp.o: ../tv.cpp
+CMakeFiles/clion_cplusplus.dir/tv.cpp.o: ../tv.h
 

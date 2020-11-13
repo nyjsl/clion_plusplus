@@ -5,49 +5,54 @@
 #include <iostream>
 using std::cout;
 using std::endl;
-template<typename T>
+
+// template prototype
+template <typename T> void counts();
+
+template<typename T> void reports(T &);
+
+
+template<typename TT>
 class HasFriend{
 private:
-    T item;
+    TT item;
     static int ct;
 public:
-    HasFriend(const T & i): item(i){ct++;}
+    HasFriend(const TT & i): item(i){ct++;}
     ~HasFriend(){ct--;}
-    friend void counts();
-    friend void reports(HasFriend<T> &);
+    friend void counts<TT>();
+    //编译器可以从参数类型推断出要使用的具体化,使用<>格式也能获得同样的效果
+    friend void reports<>(HasFriend<TT> &);
 
 //template parameter
 };
 
 template<typename T>
 int HasFriend<T> ::ct = 0;
+template <typename T>
 void counts() {
-    cout << " int count: " << HasFriend<int>::ct << endl;
-    cout << " double count: " << HasFriend<double>::ct << endl;
+    cout << " templatesize" << sizeof(HasFriend<T>)<< endl;
+    cout << " template count: " << HasFriend<T>::ct << endl;
 }
 
- void reports(HasFriend<int> & hf) {
-    cout << " HasFriend<int>: " << hf.item << endl;
-}
-void reports(HasFriend<double> & hf){
-    cout << " HasFriend<double>: " << hf.item << endl;
+
+template <typename T>
+ void reports(T & hf) {
+    cout << hf.item << endl;
 }
 
-int main(){
-    cout << "No objects declared: ";
-    counts();
-    HasFriend<int> hfi(10);
-    cout << "After hfi declared: ";
-    counts();
-    HasFriend<int> hfi2(20);
-    cout << "After hfi2 declared: ";
-    counts();
-    HasFriend<double> hfdb(10.5);
-    cout << "After hfdb declared: ";
-    counts();
-    reports(hfi);
-    reports(hfi2);
-    reports(hfdb);
-    return 0;
-}
+//int main(){
+//    counts<int>();
+//    HasFriend<int> hfi1(10);
+//    HasFriend<int> hfi2(20);
+//    HasFriend<double> hfdb(10.5);
+//    reports(hfi1);
+//    reports(hfi2);
+//    reports(hfdb);
+//    cout << " counts<int> output:\n";
+//    counts<int>();
+//    cout << " counts<double> output:\n";
+//    counts<double>();
+//    return 0;
+//}
 

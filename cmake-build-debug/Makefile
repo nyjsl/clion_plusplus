@@ -440,6 +440,33 @@ tempparam.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/tempparam.cpp.s
 .PHONY : tempparam.cpp.s
 
+tv.o: tv.cpp.o
+
+.PHONY : tv.o
+
+# target to build an object file
+tv.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/tv.cpp.o
+.PHONY : tv.cpp.o
+
+tv.i: tv.cpp.i
+
+.PHONY : tv.i
+
+# target to preprocess a source file
+tv.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/tv.cpp.i
+.PHONY : tv.cpp.i
+
+tv.s: tv.cpp.s
+
+.PHONY : tv.s
+
+# target to generate assembly for a file
+tv.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/tv.cpp.s
+.PHONY : tv.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -482,6 +509,9 @@ help:
 	@echo "... tempparam.o"
 	@echo "... tempparam.i"
 	@echo "... tempparam.s"
+	@echo "... tv.o"
+	@echo "... tv.i"
+	@echo "... tv.s"
 .PHONY : help
 
 

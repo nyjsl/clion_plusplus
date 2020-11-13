@@ -122,6 +122,9 @@
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp">
 			<Option target="clion_cplusplus"/>
 		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/queuetp.h">
+			<Option target="clion_cplusplus"/>
+		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/stackp1.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>
@@ -147,6 +150,12 @@
 			<Option target="clion_cplusplus"/>
 		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/tempparam.cpp">
+			<Option target="clion_cplusplus"/>
+		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/tv.cpp">
+			<Option target="clion_cplusplus"/>
+		</Unit>
+		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/tv.h">
 			<Option target="clion_cplusplus"/>
 		</Unit>
 		<Unit filename="/Users/xiaolian/CLionProjects/clion_cplusplus/CMakeLists.txt">

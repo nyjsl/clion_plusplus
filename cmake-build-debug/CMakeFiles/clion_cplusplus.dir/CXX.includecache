@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiaolian/CLionProjects/clion_cplusplus/frd2tmp.cpp
+/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp
 iostream
 -
+tv.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/tv.h
 
-/Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/tempparam.cpp
+/Users/xiaolian/CLionProjects/clion_cplusplus/tv.cpp
 iostream
 -
-stacktp.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h
+tv.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/tv.h
+
+/Users/xiaolian/CLionProjects/clion_cplusplus/tv.h
 
