@@ -1,33 +1,33 @@
-#include <iostream>
-#include "stonewt.h"
-
-#include "stringbad.h"
-#include "Queue.h"
-#include <cstdlib>
-#include <ctime>
-#include "table_tennis.h"
-#include "brass.h"
-
-#include "dma.h"
-#include "Worker.h"
-#include "stacktp.h"
-
-void cellme1(StringBad &rsb); //pass by refreence
-void cellme2(StringBad sb);   //pass by value
-bool newcustomer(double x);
-void bank();
-
-
-
-using std::cout;
-using std::cin;
-using std::ios_base;
-using std::endl;
-
-void showPlayer(const TableTannisPlayer & tp);
-
-int main() {
-    cout << "Hello, World!" << std::endl;
+//#include <iostream>
+//#include "stonewt.h"
+//
+//#include "stringbad.h"
+//#include "Queue.h"
+//#include <cstdlib>
+//#include <ctime>
+//#include "table_tennis.h"
+//#include "brass.h"
+//
+//#include "dma.h"
+//#include "Worker.h"
+//#include "stacktp.h"
+//
+//void cellme1(StringBad &rsb); //pass by refreence
+//void cellme2(StringBad sb);   //pass by value
+//bool newcustomer(double x);
+//void bank();
+//
+//
+//
+//using std::cout;
+//using std::cin;
+//using std::ios_base;
+//using std::endl;
+//
+//void showPlayer(const TableTannisPlayer & tp);
+//
+//int main() {
+//    cout << "Hello, World!" << std::endl;
 
 //    Stonewt myCat;
 //    myCat = 19.6; // not valid if Stonewt(double) is declared as explicit
@@ -171,139 +171,139 @@ int main() {
 //    }
 //    cout << "Bye.\n";
 
-    Stack<std::string> st; // create an empty stack
-    char ch;
-    std::string po;
-    cout << "Please enter A to add a purchase order \n"
-         << "p to process a PO ,or Q to quit .\n";
-    while (cin >> ch && std::toupper(ch) != 'Q') {
-        while (cin.get() != '\n') {
-            continue;
-        }
-        if (!std::isalpha(ch)) {
-            cout << '\a';
-            continue;
-        }
+//    Stack<std::string> st; // create an empty stack
+//    char ch;
+//    std::string po;
+//    cout << "Please enter A to add a purchase order \n"
+//         << "p to process a PO ,or Q to quit .\n";
+//    while (cin >> ch && std::toupper(ch) != 'Q') {
+//        while (cin.get() != '\n') {
+//            continue;
+//        }
+//        if (!std::isalpha(ch)) {
+//            cout << '\a';
+//            continue;
+//        }
+//
+//        switch (ch) {
+//            case 'A':
+//            case 'a':
+//               cout << "Enter a PO number to add:";
+//               cin >> po;
+//                if (st.isFull()) {
+//                    cout << "stack already full\n";
+//                }else{
+//                    st.push(po);
+//                }
+//                break;
+//            case 'p':
+//            case 'P':
+//                if (st.isEmpty()) {
+//                    cout << "stack already empyt \n";
+//                }else{
+//                    st.pop(po);
+//                    cout << "PO #" << po << " popped\n";
+//                    break;
+//                }
+//
+//        }
+//        cout << "Please enter A to add a purchase orde ,\n"
+//             << "P to process A PO or Q to quit.\n";
+//    }
+//    cout << " Bye\n";
+//    return 0;
+//
+//}
+//
+//void cellme1(StringBad &rsb){
+//    cout << "String passed by refreence:\n";
+//    cout << "   \"" << rsb << "\"\n";
+//}
+//
+//void cellme2(StringBad sb){
+//    cout << "String passed by val:\n";
+//    cout << "   \"" << sb << "\"\n";
+//}
+//
+//bool newcustomer(double x) {
+//    return (std::rand()*x/RAND_MAX <1);
+//}
+//
+//const int MIN_PER_HR = 60;
+//void bank() {
+//    std::srand(std::time(0));
+//    cout << "Case Study: Bank of Heather Automatic Teller\n";
+//    cout << "Enter maximum size of queue: ";
+//    int qs;
+//    cin >> qs;
+//    Queue line(qs);
+//    cout << "Enter the number of simulation hours:";
+//    int hours ;
+//    cin >> hours;
+//    long cyclelimit = MIN_PER_HR * hours;
+//    cout << "Enter the average number of customers per hour: ";
+//    double perhour;
+//    cin>>perhour;
+//    double min_per_cust;
+//    min_per_cust = MIN_PER_HR;
+//    Item temp;
+//    long turnaways = 0;
+//    long customers = 0;
+//    long servd = 0;
+//    long sum_Lin = 0;
+//    long wait_time = 0;
+//    long line_wait = 0;
+//    for (int cycle = 0; cycle < cyclelimit; cycle++) {
+//        if (newcustomer(min_per_cust)) {
+//            if (line.isFull()) {
+//                turnaways++;
+//            }else{
+//                customers++;
+//                temp.set(cycle);
+//                line.enqueue(temp);
+//            }
+//        }
+//        if (wait_time <= 0 && !line.isEmpyt()) {
+//            line.dequeue(temp);
+//            wait_time = temp.ptime();
+//            line_wait += cycle - temp.when();
+//            servd++;
+//        }
+//        if (wait_time > 0) {
+//            wait_time--;
+//        }
+//        sum_Lin+=line.queuecount();
+//    }
+//
+//    if(customers>0) {
+//        cout << "customers accepted " <<customers << std::endl;
+//        cout << "customers served " <<servd << std::endl;
+//        cout << "turnaways " <<turnaways << std::endl;
+//        cout << "average queue size: ";
+//        cout.precision(2);
+//        cout.setf(ios_base::fixed, ios_base::floatfield);
+//        cout << (double) sum_Lin/cyclelimit << endl;
+//        cout << "average wait time: "
+//             << (double) line_wait / servd << " minutes \n";
+//
+//    }else{
+//        cout << "No customers! \n";
+//    }
+//    cout << "Done!\n";
+//}
+///**
+// * 基类引用和指针可以指向派生类
+// * @param tp
+// */
+//void showPlayer(const TableTannisPlayer & tp){
+//    cout << "Name: ";
+//    tp.Name();
+//    if (tp.Hastable()) {
+//        cout << " : has a table.\n";
+//    }else{
+//        cout << " : hasn't a table.\n";
+//    }
 
-        switch (ch) {
-            case 'A':
-            case 'a':
-               cout << "Enter a PO number to add:";
-               cin >> po;
-                if (st.isFull()) {
-                    cout << "stack already full\n";
-                }else{
-                    st.push(po);
-                }
-                break;
-            case 'p':
-            case 'P':
-                if (st.isEmpty()) {
-                    cout << "stack already empyt \n";
-                }else{
-                    st.pop(po);
-                    cout << "PO #" << po << " popped\n";
-                    break;
-                }
-
-        }
-        cout << "Please enter A to add a purchase orde ,\n"
-             << "P to process A PO or Q to quit.\n";
-    }
-    cout << " Bye\n";
-    return 0;
-
-}
-
-void cellme1(StringBad &rsb){
-    cout << "String passed by refreence:\n";
-    cout << "   \"" << rsb << "\"\n";
-}
-
-void cellme2(StringBad sb){
-    cout << "String passed by val:\n";
-    cout << "   \"" << sb << "\"\n";
-}
-
-bool newcustomer(double x) {
-    return (std::rand()*x/RAND_MAX <1);
-}
-
-const int MIN_PER_HR = 60;
-void bank() {
-    std::srand(std::time(0));
-    cout << "Case Study: Bank of Heather Automatic Teller\n";
-    cout << "Enter maximum size of queue: ";
-    int qs;
-    cin >> qs;
-    Queue line(qs);
-    cout << "Enter the number of simulation hours:";
-    int hours ;
-    cin >> hours;
-    long cyclelimit = MIN_PER_HR * hours;
-    cout << "Enter the average number of customers per hour: ";
-    double perhour;
-    cin>>perhour;
-    double min_per_cust;
-    min_per_cust = MIN_PER_HR;
-    Item temp;
-    long turnaways = 0;
-    long customers = 0;
-    long servd = 0;
-    long sum_Lin = 0;
-    long wait_time = 0;
-    long line_wait = 0;
-    for (int cycle = 0; cycle < cyclelimit; cycle++) {
-        if (newcustomer(min_per_cust)) {
-            if (line.isFull()) {
-                turnaways++;
-            }else{
-                customers++;
-                temp.set(cycle);
-                line.enqueue(temp);
-            }
-        }
-        if (wait_time <= 0 && !line.isEmpyt()) {
-            line.dequeue(temp);
-            wait_time = temp.ptime();
-            line_wait += cycle - temp.when();
-            servd++;
-        }
-        if (wait_time > 0) {
-            wait_time--;
-        }
-        sum_Lin+=line.queuecount();
-    }
-
-    if(customers>0) {
-        cout << "customers accepted " <<customers << std::endl;
-        cout << "customers served " <<servd << std::endl;
-        cout << "turnaways " <<turnaways << std::endl;
-        cout << "average queue size: ";
-        cout.precision(2);
-        cout.setf(ios_base::fixed, ios_base::floatfield);
-        cout << (double) sum_Lin/cyclelimit << endl;
-        cout << "average wait time: "
-             << (double) line_wait / servd << " minutes \n";
-
-    }else{
-        cout << "No customers! \n";
-    }
-    cout << "Done!\n";
-}
-/**
- * 基类引用和指针可以指向派生类
- * @param tp
- */
-void showPlayer(const TableTannisPlayer & tp){
-    cout << "Name: ";
-    tp.Name();
-    if (tp.Hastable()) {
-        cout << " : has a table.\n";
-    }else{
-        cout << " : hasn't a table.\n";
-    }
-
-}
+//}
 
 

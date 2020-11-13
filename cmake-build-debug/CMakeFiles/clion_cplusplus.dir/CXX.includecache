@@ -6,55 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiaolian/CLionProjects/clion_cplusplus/Queue.h
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.h
-string
--
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/brass.h
+/Users/xiaolian/CLionProjects/clion_cplusplus/frd2tmp.cpp
 iostream
 -
-string
--
 
-/Users/xiaolian/CLionProjects/clion_cplusplus/dma.h
-ostream
--
+/Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h
 
-/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp
+/Users/xiaolian/CLionProjects/clion_cplusplus/tempparam.cpp
 iostream
 -
-stonewt.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
-stringbad.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.h
-Queue.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/Queue.h
-cstdlib
--
-ctime
--
-table_tennis.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.h
-brass.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/brass.h
-dma.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/dma.h
-Worker.h
-/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.h
 stacktp.h
 /Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.h
-iostream
--
-
-/Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.h
-string
--
 

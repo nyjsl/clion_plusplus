@@ -9,10 +9,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/xiaolian/CLionProjects/clion_cplusplus/Worker.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/Worker.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/brass.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/brass.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/dma.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/dma.cpp.o"
+  "/Users/xiaolian/CLionProjects/clion_cplusplus/frd2tmp.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/frd2tmp.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/main.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o"
   "/Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o"
+  "/Users/xiaolian/CLionProjects/clion_cplusplus/tempparam.cpp" "/Users/xiaolian/CLionProjects/clion_cplusplus/cmake-build-debug/CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

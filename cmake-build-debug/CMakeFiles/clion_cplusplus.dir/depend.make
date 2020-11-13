@@ -16,15 +16,9 @@ CMakeFiles/clion_cplusplus.dir/brass.cpp.o: ../brass.h
 CMakeFiles/clion_cplusplus.dir/dma.cpp.o: ../dma.cpp
 CMakeFiles/clion_cplusplus.dir/dma.cpp.o: ../dma.h
 
-CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../Queue.h
-CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../Worker.h
-CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../brass.h
-CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../dma.h
+CMakeFiles/clion_cplusplus.dir/frd2tmp.cpp.o: ../frd2tmp.cpp
+
 CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../main.cpp
-CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stacktp.h
-CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stonewt.h
-CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../stringbad.h
-CMakeFiles/clion_cplusplus.dir/main.cpp.o: ../table_tennis.h
 
 CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o: ../stonewt.cpp
 CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o: ../stonewt.h
@@ -34,4 +28,7 @@ CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o: ../stringbad.h
 
 CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o: ../table_tennis.cpp
 CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o: ../table_tennis.h
+
+CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o: ../stacktp.h
+CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o: ../tempparam.cpp
 

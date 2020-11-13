@@ -278,6 +278,33 @@ dma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/dma.cpp.s
 .PHONY : dma.cpp.s
 
+frd2tmp.o: frd2tmp.cpp.o
+
+.PHONY : frd2tmp.o
+
+# target to build an object file
+frd2tmp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/frd2tmp.cpp.o
+.PHONY : frd2tmp.cpp.o
+
+frd2tmp.i: frd2tmp.cpp.i
+
+.PHONY : frd2tmp.i
+
+# target to preprocess a source file
+frd2tmp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/frd2tmp.cpp.i
+.PHONY : frd2tmp.cpp.i
+
+frd2tmp.s: frd2tmp.cpp.s
+
+.PHONY : frd2tmp.s
+
+# target to generate assembly for a file
+frd2tmp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/frd2tmp.cpp.s
+.PHONY : frd2tmp.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -386,6 +413,33 @@ table_tennis.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.s
 .PHONY : table_tennis.cpp.s
 
+tempparam.o: tempparam.cpp.o
+
+.PHONY : tempparam.o
+
+# target to build an object file
+tempparam.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o
+.PHONY : tempparam.cpp.o
+
+tempparam.i: tempparam.cpp.i
+
+.PHONY : tempparam.i
+
+# target to preprocess a source file
+tempparam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/tempparam.cpp.i
+.PHONY : tempparam.cpp.i
+
+tempparam.s: tempparam.cpp.s
+
+.PHONY : tempparam.s
+
+# target to generate assembly for a file
+tempparam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clion_cplusplus.dir/build.make CMakeFiles/clion_cplusplus.dir/tempparam.cpp.s
+.PHONY : tempparam.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -410,6 +464,9 @@ help:
 	@echo "... dma.o"
 	@echo "... dma.i"
 	@echo "... dma.s"
+	@echo "... frd2tmp.o"
+	@echo "... frd2tmp.i"
+	@echo "... frd2tmp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -422,6 +479,9 @@ help:
 	@echo "... table_tennis.o"
 	@echo "... table_tennis.i"
 	@echo "... table_tennis.s"
+	@echo "... tempparam.o"
+	@echo "... tempparam.i"
+	@echo "... tempparam.s"
 .PHONY : help
 
 

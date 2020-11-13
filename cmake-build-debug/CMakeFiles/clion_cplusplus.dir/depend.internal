@@ -16,16 +16,10 @@ CMakeFiles/clion_cplusplus.dir/brass.cpp.o
 CMakeFiles/clion_cplusplus.dir/dma.cpp.o
  /Users/xiaolian/CLionProjects/clion_cplusplus/dma.cpp
  /Users/xiaolian/CLionProjects/clion_cplusplus/dma.h
+CMakeFiles/clion_cplusplus.dir/frd2tmp.cpp.o
+ /Users/xiaolian/CLionProjects/clion_cplusplus/frd2tmp.cpp
 CMakeFiles/clion_cplusplus.dir/main.cpp.o
- /Users/xiaolian/CLionProjects/clion_cplusplus/Queue.h
- /Users/xiaolian/CLionProjects/clion_cplusplus/Worker.h
- /Users/xiaolian/CLionProjects/clion_cplusplus/brass.h
- /Users/xiaolian/CLionProjects/clion_cplusplus/dma.h
  /Users/xiaolian/CLionProjects/clion_cplusplus/main.cpp
- /Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h
- /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
- /Users/xiaolian/CLionProjects/clion_cplusplus/stringbad.h
- /Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.h
 CMakeFiles/clion_cplusplus.dir/stonewt.cpp.o
  /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.cpp
  /Users/xiaolian/CLionProjects/clion_cplusplus/stonewt.h
@@ -35,3 +29,6 @@ CMakeFiles/clion_cplusplus.dir/stringbad.cpp.o
 CMakeFiles/clion_cplusplus.dir/table_tennis.cpp.o
  /Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.cpp
  /Users/xiaolian/CLionProjects/clion_cplusplus/table_tennis.h
+CMakeFiles/clion_cplusplus.dir/tempparam.cpp.o
+ /Users/xiaolian/CLionProjects/clion_cplusplus/stacktp.h
+ /Users/xiaolian/CLionProjects/clion_cplusplus/tempparam.cpp
